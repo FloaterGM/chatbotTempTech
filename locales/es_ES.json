@@ -1,0 +1,100 @@
+{
+	"compras": {
+		"start": "¿Tienes algo en mente o te gustaria mirar el catalogo?.",
+		"client": "{{firstName}}, vemos que ya haz interactuado con nosotros asi que nos alegra verte nuevamente por aquí.",
+		"catalog": "Perfecto claro que si, aquí tienes nuestro catalogo."
+	},
+	"desconocido": {
+		"warning": "Lo siento, no reconozco '{{userMessage}}' 😔",
+		"help": "Pero puedes usar el siguiente menu para navegar las opciones que necesites. 😊"
+	},
+	"bienvenida": {
+		"welcome": "Hola {{firstName}}!! ¿Como te encuentras el dia de hoy? nos alegra tenerte por aqui.",
+		"remember": "Recuerda que puedes usar el menu inferior para las diferentes opciones",
+		"help": "Aqui estamos para ayudarte 😊",
+		"end": "¿Hay algo mas en lo que podamos ayudarte {{firstName}}?",
+		"helpMenu": "Cuentanos, ¿En que podemos ayudarte el dia de hoy? 🥰"
+	},
+	"infoUsuario": {
+		"sinInfo": "{{firstName}} parece que no tenemos informacion tuya.",
+		"peticion": "¿Estas de acuerdo si te tomamos unos datos? 😏",
+		"noAcepta": "Lo sentimos {{firstName}} pero por politicas generales no podremos seguir con el proceso de compra 😔"
+	},
+	"quickReplyInfo": [
+		{
+			"content_type": "text",
+			"title": "Si!",
+			"payload": "si",
+			"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Solid_green.svg/2048px-Solid_green.svg.png"
+		},
+		{
+			"content_type": "text",
+			"title": "No!",
+			"payload": "no",
+			"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Solid_red.svg/512px-Solid_red.svg.png"
+		}
+	],
+	"catalogo": {
+		"mensaje": "Mira {{firstName}}, este es nuestro catalogo 🥰",
+		"leido": "Cuando hayas terminado de ver lo que te gustaria adquirir dale a la siguiente opcion para continuar. 😊"
+	},
+	"get_started": {
+		"mensaje": "😊 Hola! Te damos la bienvenida a nuestra pagina de ventas, esperamos poder satisfacer todas tus necesidades y solicitudes 😊"
+	},
+	"envios": {
+		"peticion": "{{firstName}} indicanos porfavor el numero de orden de tu pedido: ",
+		"noGuia": "{{firstName}} lo sentimos 😔, aun no se nos ha generado la guia para tu pedido, trabajaremos para que la puedas verificar lo mas rapido posible",
+		"guia": "{{guia}}, Mira {{firstName}} 😊, esta es la guia de envio, puedes realizar el seguimiento de tu pedido dando click en el link o yendo directamente a la pagina de la transportadora: https://www.servientrega.com/wps/portal/rastreo-envio/ 😏",
+		"noPedido": "{{firstName}}, no encontramos este numero de pedido en nuestra base de datos 🧐"
+	},
+	"inventario": {
+		"articulos": [
+			{
+				"id": "1",
+				"nombre": "Camara canon EOS",
+				"precio": "$2.149.000",
+				"url": "https://http2.mlstatic.com/D_NQ_NP_847030-MLA45730797824_042021-O.webp",
+				"urlWeb": "https://www.mercadolibre.com.co/canon-eos-kit-4000d-lente-18-55mm-iii-dslr-color-negro/p/MCO15272920?pdp_filters=category:MCO1042#searchVariation=MCO15272920&position=2&search_layout=stack&type=product&tracking_id=64aa9122-df4b-4785-947c-f1441f1480f8"
+			},{
+				"id": "2",
+				"nombre": "Silla de escritorio BL-2001",
+				"precio": "$328.900",
+				"url": "https://http2.mlstatic.com/D_NQ_NP_776429-MLA49982653825_052022-O.webp",
+				"urlWeb": "https://www.mercadolibre.com.co/silla-de-escritorio-urban-design-bl-2001-sa-4006-ergonomica-negra-con-tapizado-de-tela-y-cuero-sintetico/p/MCO19098970?pdp_filters=deal:MCO779366-1#searchVariation=MCO19098970&position=1&search_layout=grid&type=product&tracking_id=5fce11a1-2a2b-4c9d-9652-a794817492f6&c_id=/home/promotions-recommendations/element&c_element_order=2&c_uid=7c03be25-eb7c-4ed4-aef8-d60eb54f1cac"
+			},{
+				"id": "3",
+				"nombre": "PC Gamer Epsilon",
+				"precio": "$2.149.900",
+				"url": "https://http2.mlstatic.com/D_NQ_NP_914908-MCO54271993193_032023-O.webp",
+				"urlWeb": "https://articulo.mercadolibre.com.co/MCO-657785400-torre-cpu-gamer-ryzen-5-5600g-vega-7-1tb-16gb-pc-_JM?attributes=T3BjaW9uZXM%3D%3AUkFNIDJYOEdCICsgU1NEIDI0MEdCIFNBVEE%3D&quantity=1"
+			},{
+				"id": "4",
+				"nombre": "Teclado Kumara",
+				"precio": "$249.900",
+				"url": "https://http2.mlstatic.com/D_NQ_NP_994079-MLA52350716250_112022-O.webp",
+				"urlWeb": "https://www.mercadolibre.com.co/teclado-gamer-redragon-kumara-k552-qwerty-outemu-red-espanol-espana-color-negro-con-luz-rainbow/p/MCO19518470?pdp_filters=category:MCO418448#searchVariation=MCO19518470&position=2&search_layout=stack&type=product&tracking_id=618ce429-a6fd-462c-87b8-596f93d66ff9"
+			},{
+				"id": "5",
+				"nombre": "Logitech G733",
+				"precio": "$759.900",
+				"url": "https://http2.mlstatic.com/D_NQ_NP_844090-MLA47762557307_102021-O.webp",
+				"urlWeb": "https://www.mercadolibre.com.co/audifonos-gamer-inalambricos-logitech-g-series-g733-kda-con-luz-rgb-led/p/MCO18501738?pdp_filters=item_id:MCO874559181#is_advertising=true&searchVariation=MCO18501738&position=1&search_layout=stack&type=pad&tracking_id=2d122b20-af5a-4098-87b7-d70b638db133&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZDllZDY4M2EtMzdlYy00MWMzLWFiODktYjUyMTY1YzhkMzE2"
+			}
+		]
+	},
+	"envioProducto": {
+		"mensaje": "Perfecto {{firstName}}, dinos porfa el id o el nombre completo del articulo que deseas 😊",
+		"noEncontrado": "Lo sentimos {{firstName}}, no tenemos nada parecido dentro de nuestro catalogo 😔"
+	},
+	"consultaCompras": {
+		"mensaje": "Mira {{firstName}}, estas han sido tus ultimas compras",
+		"cedula": "Para consultar tus compras danos porfa tu numero de cedula: ",
+		"cedulaDesconocida": "Lo sentimos {{firstName}}, pero esta cedula no se encuentra registrada o está incorrecta",
+		"noCompras": "{{firstName}} no tienes compras con nosotros aun, pero eso puede cambiar 😊"
+	},
+	"asesor": {
+		"celular": "Claro que si, danos porfa tu numero de telefono: ",
+		"contactar": "{{firstName}} en unos momentos uno de nuestros asesores se contactara contigo al numero: {{numero}} 😊"
+	},
+	"respuestaNegativa": "Lo siento si no pude resolver tu duda 😔, estare trabajando en mejorar mis respuestas para ofrecerte la mejor asesoria."
+}
